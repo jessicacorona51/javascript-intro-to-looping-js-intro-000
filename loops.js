@@ -21,8 +21,6 @@ function doWhileLoop(num) {
   let i = 0;
     console.log(i, "I run once regardless. ");
   }
-  while (i < num);
-  console.log("Final value of i:", i);
   do {
     console.log("I run once regardless.");
   } while (incrementVariable() > num);
