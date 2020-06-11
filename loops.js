@@ -16,13 +16,13 @@ function whileLoop(n) {
     }
     return "done";
 }
-function doWhileLoop(array) {
-  function maybeTrue() {
-    return Math.random() >= 0.5
-  }
+function doWhileLoop(num) {
+  let i = 0;
 
   do {
-    array.pop();
-  } while (array.length > -1 && maybeTrue());
-    return array;
+    console.log(i, "I run once regardless. ");
+  }
+  while (i++ < num);
+
+  console.log("Final value of i:", i);
 }
