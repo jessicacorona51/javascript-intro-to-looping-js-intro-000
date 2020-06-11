@@ -21,4 +21,3 @@ function doWhileLoop(num) {
   for (let i = 0; i <10; i++)
     console.log(i, "I run once regardless. ");
   }
-
