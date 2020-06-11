@@ -25,4 +25,4 @@ function doWhileLoop(num) {
   console.log("Final value of i:", i);
   do {
     console.log("I run once regardless.");
-  } while (incrementVariable() < 11);
+  } while (incrementVariable() < num);
