@@ -23,12 +23,6 @@ function doWhileLoop(num) {
   }
   do {
     console.log("I run once regardless.", i++);
-  } while (incrementVariable() < 10);
+  } while (i < 10);
 
-function doWhileLoop(num) {
-    let i = 0
-      console.log(i, "I run once regardless. ");
-    }
-    do {
-      console.log("I run once regardless.", i++);
-    } while (incrementVariable() < 10);
+
