@@ -23,5 +23,5 @@ function doWhileLoop(num) {
   }
   do {
     i = i + 1
-  } while (incrementVariable() += 10);
+  } while (incrementVariable() < 10);
 
