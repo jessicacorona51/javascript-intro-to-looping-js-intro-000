@@ -23,4 +23,3 @@ function doWhileLoop(num) {
   }
   while (++i < num);
   console.log("Final value of i:", i);
-
