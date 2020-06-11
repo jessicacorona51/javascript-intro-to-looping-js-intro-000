@@ -27,3 +27,14 @@ function doWhileLoop(num)  {
    }
   while(incrementVariable() <= num);
  }
+ function doWhileLoop(num)  {
+    var i = 0; 
+   function incrementVariable() {
+     i++
+     return i;
+   }
+   do {
+     console.log("I run once regardless.");
+    }
+   while(incrementVariable() =< 10);
+  }
